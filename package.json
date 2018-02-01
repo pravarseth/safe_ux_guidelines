@@ -1,0 +1,27 @@
+{
+  "name": "safe_ux_guidelines",
+  "version": "0.1.0",
+  "description": "A design guidline that can be assembled together to build any number of applications",
+  "scripts": {
+    "build": "node-sass --output-style expanded scss/main.scss css/safe_design_system.css",
+    "watch": "node-sass -w --output-style expanded scss/main.scss css/safe_design_system.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maidsafe/safe_ux_guidelines.git"
+  },
+  "author": {
+    "name": "MaidSafe",
+    "email": "dev@maidsafe.net",
+    "url": "https://maidsafe.net"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/maidsafe/safe_ux_guidelines/issues"
+  },
+  "homepage": "https://github.com/maidsafe/safe_ux_guidelines#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
